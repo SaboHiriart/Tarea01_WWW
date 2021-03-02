@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    font-size: 2vw;
+}
+
+.datos{
+    width: 25%;
+    float: left;
+    padding: 15px;
+    background-color: #579AE7;
+    border: 1px solid #579AE7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid white;
+}
+
+.foto-perfil{
+    width: 70%;
+}
+
+.foto-perfil img{
+    border-radius: 50%;
+}
+
+.campo img{
+    width: 10%;
+}
