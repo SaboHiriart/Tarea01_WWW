@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+/* 
+    ESTILOS PREDETERMINADOS PARA  ETIQUETAS
+*/
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -10,12 +13,56 @@ img{
     width: 100%;
 }
 
-h2{
-    font-size: 2vw;
+hr{
+    margin: 50px 0px;
 }
+
+
+/* 
+    UTILIDADES 
+*/
+.letra-blanca{
+    color: #ffffff;
+}
+
+.subtitulo{
+    display: flex;
+    flex-direction: row;
+}
+
+.icono-chico{
+    width: 40px;
+    height: 40px;
+}
+
+.icono-grande{
+    width: 60px;
+    height: 60px;
+}
+
+.label-grande{
+    margin-left: 20px;
+}
+
+.vertical {
+    margin-left: 26px;
+    border-left: 5px solid black;
+    height: 50px;
+}
+
+.circulo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    margin-left: 4px;
+}
+
+/*---------- COLUMNA DATOS ----------*/
 
 .datos{
     width: 25%;
+    height: 100%;
     float: left;
     padding: 15px;
     background-color: #579AE7;
@@ -25,21 +72,27 @@ h2{
     align-items: center;
 }
 
-.main{
-    width: 75%;
-    float: left;
-    padding: 15px;
-    border: 1px solid white;
-}
-
 .foto-perfil{
     width: 70%;
 }
 
 .foto-perfil img{
     border-radius: 50%;
+    border: 3px solid white;
 }
 
-.campo img{
-    width: 10%;
+
+/*--------- COLUMNA MAIN ----------*/
+
+.historial{
+    width: 75%;
+    float: left;
+    border: 1px solid white;
+    padding: 0px 40px;
+}
+
+.seccion-historial{
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
 }
