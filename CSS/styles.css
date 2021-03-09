@@ -2,67 +2,78 @@
     box-sizing: border-box;
 }
 
+
 /* CSS PARA ETIQUETAS PREDETERMINADAS */
-body{
+
+body {
     font-family: 'Lato', sans-serif;
 }
 
-img{
+img {
     width: 80%;
 }
 
-h1{
+h1 {
     color: #3fc7df;
 }
 
-h2{
+h2 {
     color: #3fc7df;
 }
 
-h3{
+h3 {
     color: #3fc7df;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 /* CSS PARA UTILIDADES */
-.mayusculas{
+
+.mayusculas {
     text-transform: uppercase;
 }
 
-.subtitulo{
+.subtitulo {
     margin-top: 25px;
 }
 
-.texto-centrado{
+.texto-centrado {
     text-align: center;
 }
 
-.texto-blanco{
+.texto-blanco {
     color: #ffffff;
 }
 
-.texto-azul{
+.texto-azul {
     color: #3fc7df;
 }
 
-.letra-mediana{
+.letra-mediana {
     font-size: 19px;
 }
 
-.estrellas-amarillas{
+.estrellas-amarillas {
     color: orange;
 }
 
-.estrellas-gris{
+.estrellas-gris {
     color: gray;
 }
 
-.marco-azul{
+.marco-azul {
     background-color: #203572;
     padding: 20px 15px;
     color: #3fc7df;
 }
 
+
 /* CSS MAIN */
+
 .datos {
     width: 30%;
     float: left;
@@ -73,20 +84,24 @@ h3{
     justify-content: center;
 }
 
-.datos div{
-    margin-top: 20px;
+.datos div {
+    margin-top: 15px;
 }
 
-.foto-perfil{
+.foto-perfil {
     width: 100%;
     text-align: center;
 }
 
-.habilidad{
+.habilidades div {
+    margin-top: -25px;
+}
+
+.habilidad {
     display: flex;
     flex-direction: row;
 }
-  
+
 .trayectoria {
     width: 70%;
     float: left;
@@ -94,5 +109,15 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
 
+.contacto div {
+    display: flex;
+    flex-direction: row;
+}
+
+.icono-contacto {
+    width: 59px;
+    height: auto;
+    margin-right: 10px;
 }
